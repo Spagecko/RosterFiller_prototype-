@@ -6,9 +6,9 @@ from  selenium  import webdriver
 varRow = 5 
 varCol = 3  # row and colum variables 
 driver = webdriver.Firefox()
-driver.get('file:///C:/Users/Ulic Queldroma/Documents/HTML5/BasicForm.html')
+driver.get('file:///C:/Users/+++/Documents/HTML5/BasicForm.html')
 
-os.chdir('c:\\Users\\Ulic Queldroma\\Documents\\Excel') #changes the current working dir 
+os.chdir('c:\\Users\\++++ \\Documents\\Excel') #changes the current working dir 
 
 workbook = openpyxl.load_workbook('InsuranceRoseter.xlsx') #load workbook 
 sheet = workbook.get_sheet_by_name('Team roster') #creating the sheet object 
